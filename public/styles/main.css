@@ -89,7 +89,7 @@ article.bespoke-parent {
   margin-top: -240px;
   left: 50%;
   margin-left: -320px;
-  background: #eaeaea;
+  background: #fff;
   padding: 40px;
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -227,10 +227,11 @@ li.bespoke-bullet-inactive {
 }
 .emphatic,
 .emphatic .bespoke-slide {
-  background: #eaeaea;
+  background: #000;
 }
 pre {
-  padding: 26px !important;
+  padding-top: : 5px;
+    padding-bottom: 5px;
   -webkit-border-radius: 8px;
   border-radius: 8px;
 }
@@ -238,6 +239,7 @@ body {
   font-family: helvetica, arial, sans-serif;
   font-size: 18px;
   color: #404040;
+    background-color: #8B8B8B;
 }
 h1 {
   font-size: 72px;
@@ -246,15 +248,16 @@ h1 {
   margin-bottom: 16px;
 }
 h2 {
-  font-size: 42px;
+  font-size: 40px;
   letter-spacing: -1px;
   margin-bottom: 8px;
+    color: #000;
 }
 h3 {
-  font-size: 24px;
+  font-size: 40px;
   font-weight: normal;
   margin-bottom: 24px;
-  color: #606060;
+  color: #fff;
 }
 hr {
   visibility: hidden;
@@ -262,13 +265,22 @@ hr {
 }
 ul {
   list-style: none;
+  list-style:none;
+  padding: 0.5em;
+  text-align:center;
+  width:10px;
+  font-size:18px;
 }
 li {
-  margin-bottom: 12px;
+  margin-bottom: 2px;
+    text-align: left;
 }
 p {
-  margin: 0 100px 12px;
-  line-height: 22px;
+    text-align:left;
+	font-size:13.5px;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:20px;
+    color:  #ccc;
 }
 a {
   color: #0089f3;
