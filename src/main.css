@@ -295,20 +295,47 @@ Display_I{
     border-radius: 10px;
 }
 Display_A {
-    padding:10px;
-    width: 600px;
-    height: 300px;
-    background-color: #67cdcc;
-    border-radius: 10px;
+    width: 560px;
+    height: 237px;
+    background-color: #370000;
+    border-radius: 5px;
+}
+Display_Aa {
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 554px;
+    height: 231px;
+    border-radius: 5px;
+    background-color: #222;
+    float: left;
 }
 Display_X {
-    padding: 5px;
-    width: 284px;
-    height: 230px;
-    background-color: #fff;
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 272px;
+    height: 225px;
+    background-color: #370000;
     border-radius: 5px;
-    margin: 3px;
     float: left;
+}
+Display_Hero {
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 172px;
+    height: 245px;
+    background-color: #370000;
+    border-radius: 5px;
+    float: left;
+}
+judulhero {
+    text-align: center;
+    padding: 5px;
+    width: 160px;
+    height: 35px;
+    float: left;
+    color: black;
+    margin-left: 10px;
+    border-bottom: 30px;
 }
 item {
     padding: 10px;
@@ -335,12 +362,17 @@ penjelasan{
 judul {
     text-align: center;
     padding: 5px;
-    width: 284px;
+    width: 260px;
     height: 35px;
-    background-color: #fff;
-    border-radius: 5px;
-    margin: 3px;
     float: left;
+    color: white;
+    margin-left: 10px;
+    border-bottom: 30px;
+}
+tempat_judul{
+    width: 550px;
+    height: 40px;
+    border-bottom: 30px;
 }
 
 
