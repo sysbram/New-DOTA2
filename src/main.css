@@ -89,7 +89,7 @@ article.bespoke-parent {
   margin-top: -240px;
   left: 50%;
   margin-left: -320px;
-  background: #fff;
+  background: #111;
   padding: 40px;
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -251,7 +251,7 @@ h2 {
     font-size: 40px;
     letter-spacing: -1px;
     margin-bottom: 30px;
-    color: #111;
+    color: #fff;
     font-family: 'Andalus', serif;
     letter-spacing: 1px;
 }
@@ -286,14 +286,14 @@ Display_B{
     padding:10px;
     width: 0 auto;
     height: 0 auto;
-    background-color: #f8c555;
+    background-color: #370000;
     border-radius: 10px;
 }
 Display_W{
     padding:10px;
     width: 0 auto;
     height: 0 auto;
-    background-color: #67cdcc;
+    background-color: #111;
     border-radius: 10px;
 }
 Display_I{
@@ -349,6 +349,7 @@ Display_X2 {
 Display_Hero {
     margin-top: 3px;
     margin-left: 3px;
+    padding: 5px;
     width: 172px;
     height: 245px;
     background-color: #370000;
