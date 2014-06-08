@@ -243,7 +243,7 @@ h1 {
     font-size: 40px;
     letter-spacing: -1px;
     margin-bottom: 30px;
-    color: #fff;
+    color: #ddd;
     font-family: 'Andalus', serif;
     letter-spacing: 1px;
 }
@@ -251,14 +251,14 @@ h2 {
     font-size: 40px;
     letter-spacing: -1px;
     margin-bottom: 30px;
-    color: #fff;
+    color: #ddd;
     font-family: 'Andalus', serif;
     letter-spacing: 1px;
 }
 h3 {
     font-size: 20px;
     font-weight: normal;
-    color: #fff;
+    color: #ddd;
 }
 hr {
     visibility: hidden;
@@ -274,7 +274,12 @@ p {
     margin: 0 10px 12px;
 }
 nama {
-    margin: 0 10px 22px;
+    padding-left: 15px;
+    font-size: 6pt;
+    color: white;
+}
+namap {
+    padding-left: 5px;
     font-size: 6pt;
     color: white;
 }
@@ -283,11 +288,30 @@ a {
     text-decoration: none;
 }
 Display_B{
-    padding:10px;
-    width: 0 auto;
-    height: 0 auto;
+    padding:2px;
+    width: 538px;
+    height: 290px;
     background-color: #370000;
     border-radius: 10px;
+}
+Display_Ba {
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 528px;
+    height: 280px;
+    border-radius: 5px;
+    background-color: #222;
+    float: left;
+}
+Display_Hero {
+    margin-top: 3px;
+    margin-left: 3px;
+    padding: 5px;
+    width: 172px;
+    height: 245px;
+    background-color: #370000;
+    border-radius: 5px;
+    float: left;
 }
 Display_W{
     padding:10px;
@@ -331,11 +355,11 @@ Display_X1 {
     margin-top: 3px;
     margin-left: 3px;
     width: 192px;
-    height: 207px;
+    height: 205px;
     background-color: #370000;
     border-radius: 5px;
     float: left;
-    padding: 1px;
+    padding: 3px;
 }
 Display_X2 {
     margin-top: 3px;
@@ -346,23 +370,13 @@ Display_X2 {
     border-radius: 5px;
     float: left;
 }
-Display_Hero {
-    margin-top: 3px;
-    margin-left: 3px;
-    padding: 5px;
-    width: 172px;
-    height: 245px;
-    background-color: #370000;
-    border-radius: 5px;
-    float: left;
-}
 judulhero {
     text-align: center;
     padding: 5px;
     width: 160px;
     height: 35px;
     float: left;
-    color: black;
+    color: #ddd;
     margin-left: 10px;
     border-bottom: 30px;
 }
