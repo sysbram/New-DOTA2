@@ -254,26 +254,24 @@ h2 {
 h3 {
     font-size: 20px;
     font-weight: normal;
-    margin-bottom: 24px;
     color: #fff;
-    margin-bottom: 5px;
 }
 hr {
-  visibility: hidden;
-  height: 20px;
+    visibility: hidden;
+    height: 20px;
 }
 ul {
-  list-style: none;
+    list-style: none;
 }
 li {
     padding-right: 20px;
 }
 p {
-  margin: 0 10px 12px;
+    margin: 0 10px 12px;
 }
 a {
-  color: #0089f3;
-  text-decoration: none;
+    color: #0089f3;
+    text-decoration: none;
 }
 Display_B{
     padding:10px;
@@ -288,6 +286,61 @@ Display_W{
     height: 0 auto;
     background-color: #67cdcc;
     border-radius: 10px;
+}
+Display_I{
+    padding:10px;
+    width: 295px;
+    height: 240px;
+    background-color: #67cdcc;
+    border-radius: 10px;
+}
+Display_A {
+    padding:10px;
+    width: 600px;
+    height: 300px;
+    background-color: #67cdcc;
+    border-radius: 10px;
+}
+Display_X {
+    padding: 5px;
+    width: 284px;
+    height: 230px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 3px;
+    float: left;
+}
+item {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #f8c555;
+    border-radius: 5px;
+    margin: 3px;
+    float: left;
+}
+items {
+    padding: 3px;
+    width: 210px;
+    height: 50px;
+    background-color: #f8c555;
+    border-radius: 5px;
+    margin: 3px;
+    float: left;
+}
+penjelasan{
+    font-size: 15pt;
+    margin: 0 10px 100px;
+}
+judul {
+    text-align: center;
+    padding: 5px;
+    width: 284px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 3px;
+    float: left;
 }
 
 
