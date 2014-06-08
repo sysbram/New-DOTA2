@@ -244,12 +244,16 @@ h1 {
     letter-spacing: -1px;
     margin-bottom: 30px;
     color: #fff;
+    font-family: 'Andalus', serif;
+    letter-spacing: 1px;
 }
 h2 {
     font-size: 40px;
     letter-spacing: -1px;
     margin-bottom: 30px;
     color: #111;
+    font-family: 'Andalus', serif;
+    letter-spacing: 1px;
 }
 h3 {
     font-size: 20px;
@@ -268,6 +272,11 @@ li {
 }
 p {
     margin: 0 10px 12px;
+}
+nama {
+    margin: 0 10px 22px;
+    font-size: 6pt;
+    color: white;
 }
 a {
     color: #0089f3;
@@ -318,6 +327,25 @@ Display_X {
     border-radius: 5px;
     float: left;
 }
+Display_X1 {
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 192px;
+    height: 207px;
+    background-color: #370000;
+    border-radius: 5px;
+    float: left;
+    padding: 1px;
+}
+Display_X2 {
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 354px;
+    height: 225px;
+    background-color: #370000;
+    border-radius: 5px;
+    float: left;
+}
 Display_Hero {
     margin-top: 3px;
     margin-left: 3px;
@@ -338,7 +366,7 @@ judulhero {
     border-bottom: 30px;
 }
 item {
-    padding: 10px;
+    padding: 1px;
     width: 50px;
     height: 50px;
     background-color: #f8c555;
@@ -349,6 +377,17 @@ item {
 items {
     padding: 3px;
     width: 210px;
+    height: 50px;
+    background-color: #f8c555;
+    border-radius: 5px;
+    margin: 3px;
+    float: left;
+    color: black;
+    font-size: 12pt;
+}
+skill {
+    padding: 3px;
+    width: 290px;
     height: 50px;
     background-color: #f8c555;
     border-radius: 5px;
