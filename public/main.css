@@ -89,7 +89,7 @@ article.bespoke-parent {
   margin-top: -240px;
   left: 50%;
   margin-left: -320px;
-  background: #fff;
+  background: #111;
   padding: 40px;
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -243,48 +243,93 @@ h1 {
     font-size: 40px;
     letter-spacing: -1px;
     margin-bottom: 30px;
-    color: #fff;
+    color: #ddd;
+    font-family: 'Andalus', serif;
+    letter-spacing: 1px;
 }
 h2 {
     font-size: 40px;
     letter-spacing: -1px;
     margin-bottom: 30px;
-    color: #111;
+    color: #ddd;
+    font-family: 'Andalus', serif;
+    letter-spacing: 1px;
 }
 h3 {
     font-size: 20px;
     font-weight: normal;
-    color: #fff;
+    color: #ddd;
 }
 hr {
     visibility: hidden;
-    height: 20px;
+    margin-top: -10px;
 }
 ul {
     list-style: none;
 }
 li {
     padding-right: 20px;
+    color: #ddd;
 }
 p {
     margin: 0 10px 12px;
+    color: #ddd;
+    font-size: 11pt;
+}
+nama {
+    font-size: 6pt;
+    color: white;
+}
+namap {
+    padding-left: 15px;
+    font-size: 6pt;
+    color: white;
+}
+namapd {
+    padding-left: 25px;
+    font-size: 6pt;
+    color: white;
+}
+namaps {
+    padding-left: 40px;
+    font-size: 6pt;
+    color: white;
 }
 a {
     color: #0089f3;
     text-decoration: none;
 }
 Display_B{
-    padding:10px;
-    width: 0 auto;
-    height: 0 auto;
-    background-color: #f8c555;
+    padding:2px;
+    width: 538px;
+    height: 290px;
+    background-color: #370000;
     border-radius: 10px;
+}
+Display_Ba {
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 528px;
+    height: 280px;
+    border-radius: 5px;
+    background-color: #222;
+    float: left;
+}
+Display_Hero {
+    margin-top: 3px;
+    margin-left: 3px;
+    padding: 5px;
+    width: 172px;
+    height: 245px;
+    background-color: #370000;
+    border-radius: 5px;
+    float: left;
 }
 Display_W{
     padding:10px;
     width: 0 auto;
     height: 0 auto;
-    background-color: #67cdcc;
+    background-color: #111;
     border-radius: 10px;
 }
 Display_I{
@@ -295,23 +340,62 @@ Display_I{
     border-radius: 10px;
 }
 Display_A {
-    padding:10px;
-    width: 600px;
-    height: 305px;
-    background-color: #67cdcc;
-    border-radius: 10px;
-}
-Display_X {
-    padding: 5px;
-    width: 284px;
-    height: 230px;
-    background-color: #fff;
+    width: 560px;
+    height: 237px;
+    background-color: #370000;
     border-radius: 5px;
-    margin: 3px;
+}
+Display_Aa {
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 554px;
+    height: 231px;
+    border-radius: 5px;
+    background-color: #222;
     float: left;
 }
+Display_X {
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 272px;
+    height: 225px;
+    background-color: #370000;
+    border-radius: 5px;
+    float: left;
+}
+Display_X1 {
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 192px;
+    height: 205px;
+    background-color: #370000;
+    border-radius: 5px;
+    float: left;
+    padding: 3px;
+}
+Display_X2 {
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 354px;
+    height: 225px;
+    background-color: #370000;
+    border-radius: 5px;
+    float: left;
+}
+judulhero {
+    text-align: center;
+    padding: 5px;
+    width: 160px;
+    height: 35px;
+    float: left;
+    color: #ddd;
+    margin-left: 10px;
+    border-bottom: 30px;
+    font-size: 11pt;
+    
+}
 item {
-    padding: 10px;
+    padding: 1px;
     width: 50px;
     height: 50px;
     background-color: #f8c555;
@@ -327,20 +411,39 @@ items {
     border-radius: 5px;
     margin: 3px;
     float: left;
+    color: black;
+    font-size: 12pt;
+}
+skill {
+    padding: 3px;
+    width: 290px;
+    height: 50px;
+    background-color: #f8c555;
+    border-radius: 5px;
+    margin: 3px;
+    float: left;
+    color: black;
+    font-size: 12pt;
 }
 penjelasan{
-    font-size: 15pt;
-    margin: 0 10px 100px;
+    font-size: 6pt;
+    line-height: -92px;
+    color: black;
 }
 judul {
     text-align: center;
     padding: 5px;
-    width: 284px;
+    width: 260px;
     height: 35px;
-    background-color: #fff;
-    border-radius: 5px;
-    margin: 3px;
     float: left;
+    color: white;
+    margin-left: 10px;
+    border-bottom: 30px;
+}
+tempat_judul{
+    width: 550px;
+    height: 40px;
+    border-bottom: 30px;
 }
 
 
