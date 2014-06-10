@@ -269,17 +269,29 @@ ul {
 }
 li {
     padding-right: 20px;
+    color: #ddd;
 }
 p {
     margin: 0 10px 12px;
+    color: #ddd;
+    font-size: 11pt;
 }
 nama {
-    padding-left: 15px;
     font-size: 6pt;
     color: white;
 }
 namap {
-    padding-left: 5px;
+    padding-left: 15px;
+    font-size: 6pt;
+    color: white;
+}
+namapd {
+    padding-left: 25px;
+    font-size: 6pt;
+    color: white;
+}
+namaps {
+    padding-left: 40px;
     font-size: 6pt;
     color: white;
 }
@@ -379,6 +391,8 @@ judulhero {
     color: #ddd;
     margin-left: 10px;
     border-bottom: 30px;
+    font-size: 11pt;
+    
 }
 item {
     padding: 1px;
