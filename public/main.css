@@ -269,17 +269,29 @@ ul {
 }
 li {
     padding-right: 20px;
+    color: #ddd;
 }
 p {
     margin: 0 10px 12px;
+    color: #ddd;
+    font-size: 11pt;
 }
 nama {
-    padding-left: 15px;
     font-size: 6pt;
     color: white;
 }
 namap {
-    padding-left: 5px;
+    padding-left: 15px;
+    font-size: 6pt;
+    color: white;
+}
+namapd {
+    padding-left: 25px;
+    font-size: 6pt;
+    color: white;
+}
+namaps {
+    padding-left: 40px;
     font-size: 6pt;
     color: white;
 }
@@ -309,6 +321,31 @@ Display_Hero {
     padding: 5px;
     width: 172px;
     height: 245px;
+    background-color: #370000;
+    border-radius: 5px;
+    float: left;
+}
+Display_Bs{
+    width: 555px;
+    height: 270px;
+    background-color: #370000;
+    border-radius: 10px;
+}
+Display_Bas {
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 549px;
+    height: 265px;
+    border-radius: 5px;
+    background-color: #222;
+    float: left;
+}
+Display_Heroes {
+    margin-top: 3px;
+    margin-left: 3px;
+    padding: 5px;
+    width: 179px;
+    height: 232px;
     background-color: #370000;
     border-radius: 5px;
     float: left;
@@ -379,6 +416,8 @@ judulhero {
     color: #ddd;
     margin-left: 10px;
     border-bottom: 30px;
+    font-size: 11pt;
+    
 }
 item {
     padding: 1px;
