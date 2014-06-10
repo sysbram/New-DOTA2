@@ -325,6 +325,31 @@ Display_Hero {
     border-radius: 5px;
     float: left;
 }
+Display_Bs{
+    width: 555px;
+    height: 270px;
+    background-color: #370000;
+    border-radius: 10px;
+}
+Display_Bas {
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 549px;
+    height: 265px;
+    border-radius: 5px;
+    background-color: #222;
+    float: left;
+}
+Display_Heroes {
+    margin-top: 3px;
+    margin-left: 3px;
+    padding: 5px;
+    width: 179px;
+    height: 232px;
+    background-color: #370000;
+    border-radius: 5px;
+    float: left;
+}
 Display_W{
     padding:10px;
     width: 0 auto;
