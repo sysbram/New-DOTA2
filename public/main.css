@@ -365,6 +365,7 @@ Display_I{
     border-radius: 10px;
 }
 Display_A {
+<<<<<<< HEAD
     width: 560px;
     height: 237px;
     background-color: #370000;
@@ -378,6 +379,13 @@ Display_Aa {
     border-radius: 5px;
     background-color: #222;
     float: left;
+=======
+    padding:10px;
+    width: 600px;
+    height: 300px;
+    background-color: #67cdcc;
+    border-radius: 10px;
+>>>>>>> 3d3e20f7d4fb25f430c2ce0cfb49bd33aa6e4a73
 }
 Display_X {
     margin-top: 3px;
