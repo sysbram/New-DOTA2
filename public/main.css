@@ -379,14 +379,30 @@ Display_Aa {
     background-color: #222;
     float: left;
 }
+Display_A1 {
+    width: 545px;
+    height: 221px;
+    background-color: #222;
+    border-radius: 5px;
+}
+Display_Aa1 {
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 539px;
+    height: 215px;
+    border-radius: 5px;
+    background-color: #000;
+    float: left;
+}
 Display_X {
     margin-top: 3px;
     margin-left: 3px;
-    width: 272px;
-    height: 225px;
+    width: 265px;
+    height: 68px;
     background-color: #370000;
     border-radius: 5px;
     float: left;
+    padding-left: 7px;
 }
 Display_X1 {
     margin-top: 3px;
@@ -439,6 +455,31 @@ items {
     color: black;
     font-size: 12pt;
 }
+item1 {
+    padding: 1px;
+    width: 40px;
+    height: 40px;
+    background-color: #f8c555;
+    border-radius: 5px;
+    margin: 1px;
+    float: left;
+}
+itemkosong {
+    padding: 1px;
+    width: 40px;
+    height: 40px;
+    background-color: #370000;
+    border-radius: 5px;
+    margin: 1px;
+    float: left;
+}
+itemdalam {
+    margin: 3px;
+    float: left;
+    color: #fff;
+    margin-top: 15px;
+    
+}
 skill {
     padding: 3px;
     width: 290px;
@@ -461,14 +502,25 @@ judul {
     width: 260px;
     height: 35px;
     float: left;
-    color: white;
+    color: #ddd;
     margin-left: 10px;
-    border-bottom: 30px;
 }
 tempat_judul{
     width: 550px;
     height: 40px;
     border-bottom: 30px;
+}
+judul_dalam{
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    width: 230px;
+    height: 15px;
+    float: left;
+    color: #fff;
+    margin-left: 10px;
+    padding-bottom: 15px;
+    font-size: 9pt;
 }
 
 
