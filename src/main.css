@@ -275,11 +275,15 @@ p {
     color: #ddd;
     font-size: 11pt;
 }
-nama {
+nama{
+    font-size: 6pt;
+    color: white;
+}
+namapa {
     font-size: 6pt;
     width: 287px;
     height: 10px;
-    padding-left: 7 0px;
+    padding-left: 70px;
     color: white;
 }
 namap {

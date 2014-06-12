@@ -275,7 +275,11 @@ p {
     color: #ddd;
     font-size: 11pt;
 }
-nama {
+nama{
+    font-size: 6pt;
+    color: white;
+}
+namapa {
     font-size: 6pt;
     width: 287px;
     height: 10px;
