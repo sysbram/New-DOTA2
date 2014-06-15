@@ -268,7 +268,6 @@ ul {
     list-style: none;
 }
 li {
-    padding-right: 20px;
     color: #ddd;
 }
 p {
@@ -276,8 +275,15 @@ p {
     color: #ddd;
     font-size: 11pt;
 }
-nama {
+nama{
     font-size: 6pt;
+    color: white;
+}
+namapa {
+    font-size: 6pt;
+    width: 287px;
+    height: 10px;
+    padding-left: 70px;
     color: white;
 }
 namap {
@@ -379,11 +385,30 @@ Display_Aa {
     background-color: #222;
     float: left;
 }
-Display_X {
+Display_A1 {
+    width: 503px;
+    padding-right: 10px;
+    height: 161px;
+    background-color: #222;
+    border-radius: 5px;
+}
+Display_Aa1 {
     margin-top: 3px;
     margin-left: 3px;
-    width: 272px;
-    height: 225px;
+    width: 497px;
+    height: 156px;
+    border-radius: 5px;
+    background-color: #000;
+    float: left;
+}
+Display_X {
+    margin-top: 3px;
+    padding-top: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 6px;
+    width: 241px;
+    height: 48px;
     background-color: #370000;
     border-radius: 5px;
     float: left;
@@ -419,6 +444,19 @@ judulhero {
     font-size: 11pt;
     
 }
+judulstatus{
+    text-align: center;
+    padding: 5px;
+    width: 160px;
+    height: 35px;
+    float: left;
+    color: #ddd;
+    margin-left: 10px;
+    border-bottom: 30px;
+    font-size: 11pt;
+    padding-left: 60px;
+    padding-right: 40px;
+}
 item {
     padding: 1px;
     width: 50px;
@@ -439,6 +477,31 @@ items {
     color: black;
     font-size: 12pt;
 }
+item1 {
+    padding: 1px;
+    width: 40px;
+    height: 40px;
+    background-color: #f8c555;
+    border-radius: 5px;
+    margin: 1px; 
+    float: left;
+}
+itemkosong {
+    padding: 1px;
+    width: 40px;
+    height: 40px;
+    background-color: #370000;
+    border-radius: 5px;
+    margin: 1px;
+    float: left;
+}
+itemdalam {
+    margin: 3px;
+    float: left;
+    color: #fff;
+    margin-top: 12px;
+    
+}
 skill {
     padding: 3px;
     width: 290px;
@@ -458,17 +521,29 @@ penjelasan{
 judul {
     text-align: center;
     padding: 5px;
-    width: 260px;
+    width: 510px;
     height: 35px;
     float: left;
-    color: white;
+    color: #ddd;
     margin-left: 10px;
-    border-bottom: 30px;
+    margin-bottom: 20px;
 }
 tempat_judul{
     width: 550px;
     height: 40px;
     border-bottom: 30px;
+}
+judul_dalam{
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    width: 230px;
+    height: 15px;
+    float: left;
+    color: #fff;
+    margin-left: 10px;
+    padding-bottom: 15px;
+    font-size: 9pt;
 }
 
 
