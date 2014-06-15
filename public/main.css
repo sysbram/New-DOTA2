@@ -386,29 +386,32 @@ Display_Aa {
     float: left;
 }
 Display_A1 {
-    width: 545px;
-    height: 221px;
+    width: 503px;
+    padding-right: 10px;
+    height: 161px;
     background-color: #222;
     border-radius: 5px;
 }
 Display_Aa1 {
     margin-top: 3px;
     margin-left: 3px;
-    width: 539px;
-    height: 215px;
+    width: 497px;
+    height: 156px;
     border-radius: 5px;
     background-color: #000;
     float: left;
 }
 Display_X {
     margin-top: 3px;
-    margin-left: 3px;
-    width: 265px;
-    height: 68px;
+    padding-top: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 6px;
+    width: 241px;
+    height: 48px;
     background-color: #370000;
     border-radius: 5px;
     float: left;
-    padding-left: 7px;
 }
 Display_X1 {
     margin-top: 3px;
@@ -441,6 +444,19 @@ judulhero {
     font-size: 11pt;
     
 }
+judulstatus{
+    text-align: center;
+    padding: 5px;
+    width: 160px;
+    height: 35px;
+    float: left;
+    color: #ddd;
+    margin-left: 10px;
+    border-bottom: 30px;
+    font-size: 11pt;
+    padding-left: 60px;
+    padding-right: 40px;
+}
 item {
     padding: 1px;
     width: 50px;
@@ -467,7 +483,7 @@ item1 {
     height: 40px;
     background-color: #f8c555;
     border-radius: 5px;
-    margin: 1px;
+    margin: 1px; 
     float: left;
 }
 itemkosong {
@@ -483,7 +499,7 @@ itemdalam {
     margin: 3px;
     float: left;
     color: #fff;
-    margin-top: 15px;
+    margin-top: 12px;
     
 }
 skill {
@@ -505,11 +521,12 @@ penjelasan{
 judul {
     text-align: center;
     padding: 5px;
-    width: 260px;
+    width: 510px;
     height: 35px;
     float: left;
     color: #ddd;
     margin-left: 10px;
+    margin-bottom: 20px;
 }
 tempat_judul{
     width: 550px;
