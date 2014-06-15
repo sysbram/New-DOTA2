@@ -444,6 +444,19 @@ judulhero {
     font-size: 11pt;
     
 }
+judulstatus{
+    text-align: center;
+    padding: 5px;
+    width: 160px;
+    height: 35px;
+    float: left;
+    color: #ddd;
+    margin-left: 10px;
+    border-bottom: 30px;
+    font-size: 11pt;
+    padding-left: 60px;
+    padding-right: 40px;
+}
 item {
     padding: 1px;
     width: 50px;
